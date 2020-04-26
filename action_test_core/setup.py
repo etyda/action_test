@@ -20,9 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'client = ' + package_name + '.client:main',
-            'client_cancel = ' + package_name + '.client_cancel:main',
-            'client_not_composable = ' + package_name + '.client_not_composable:main',
             'averaging_server = ' + package_name + '.averaging_server:main',
             'random_number = ' + package_name + '.random_number_gen:main'
         ],
