@@ -1,0 +1,5 @@
+[0.468s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 102
+[0.468s]     self.get_logger().info('Publishing feedback: {0}'.format(feedback_msg.sample))
+[0.468s]        ^
+[0.469s] SyntaxError: invalid syntax
+[0.469s] 

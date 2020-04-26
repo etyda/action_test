@@ -1,0 +1,12 @@
+[0.342s] CMake Error at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+[0.342s]   Could NOT find FastRTPS (missing: FastRTPS_INCLUDE_DIR FastRTPS_LIBRARIES)
+[0.342s] Call Stack (most recent call first):
+[0.342s]   /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+[0.342s]   /opt/ros/eloquent/share/fastrtps_cmake_module/cmake/Modules/FindFastRTPS.cmake:95 (find_package_handle_standard_args)
+[0.342s]   /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:7 (find_package)
+[0.342s]   /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:38 (include)
+[0.343s]   /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.343s]   /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:38 (include)
+[0.343s]   CMakeLists.txt:23 (find_package)
+[0.343s] 
+[0.343s] 

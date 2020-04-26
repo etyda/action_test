@@ -1,0 +1,34 @@
+[0.430s] running egg_info
+[0.430s] writing /home/edyta/action_test/build/action_test/action_test.egg-info/PKG-INFO
+[0.431s] writing dependency_links to /home/edyta/action_test/build/action_test/action_test.egg-info/dependency_links.txt
+[0.431s] writing entry points to /home/edyta/action_test/build/action_test/action_test.egg-info/entry_points.txt
+[0.431s] writing requirements to /home/edyta/action_test/build/action_test/action_test.egg-info/requires.txt
+[0.431s] writing top-level names to /home/edyta/action_test/build/action_test/action_test.egg-info/top_level.txt
+[0.462s] reading manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.464s] writing manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.464s] running build
+[0.464s] running build_py
+[0.465s] running install
+[0.465s] running install_lib
+[0.466s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py to server_single_goal.cpython-36.pyc
+[0.467s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 49
+[0.467s]     feedback_msg.sample = self.count
+[0.467s]                ^
+[0.467s] SyntaxError: invalid syntax
+[0.467s] 
+[0.467s] running install_data
+[0.467s] running install_egg_info
+[0.469s] removing '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info' (and everything under it)
+[0.469s] Copying /home/edyta/action_test/build/action_test/action_test.egg-info to /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info
+[0.470s] running install_scripts
+[0.487s] Installing client script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.487s] Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.487s] Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing current_load script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing random_number script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing server script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.488s] writing list of installed files to '/home/edyta/action_test/build/action_test/install.log'

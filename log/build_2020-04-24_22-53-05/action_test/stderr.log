@@ -1,0 +1,5 @@
+[0.468s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 105
+[0.468s]     goal_handle.publish_feedback(feedback_msg)
+[0.468s]               ^
+[0.468s] SyntaxError: invalid syntax
+[0.468s] 

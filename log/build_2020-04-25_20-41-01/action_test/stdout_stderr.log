@@ -1,0 +1,36 @@
+[0.417s] running egg_info
+[0.417s] writing /home/edyta/action_test/build/action_test/action_test.egg-info/PKG-INFO
+[0.418s] writing dependency_links to /home/edyta/action_test/build/action_test/action_test.egg-info/dependency_links.txt
+[0.418s] writing entry points to /home/edyta/action_test/build/action_test/action_test.egg-info/entry_points.txt
+[0.418s] writing requirements to /home/edyta/action_test/build/action_test/action_test.egg-info/requires.txt
+[0.418s] writing top-level names to /home/edyta/action_test/build/action_test/action_test.egg-info/top_level.txt
+[0.447s] reading manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.448s] writing manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.448s] running build
+[0.448s] running build_py
+[0.448s] copying action_test/server_single_goal.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.449s] running install
+[0.449s] running install_lib
+[0.450s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server_single_goal.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.450s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py to server_single_goal.cpython-36.pyc
+[0.451s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 50
+[0.451s]     feedback_msg.data = msg.data
+[0.451s]                ^
+[0.451s] SyntaxError: invalid syntax
+[0.451s] 
+[0.451s] running install_data
+[0.451s] running install_egg_info
+[0.452s] removing '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info' (and everything under it)
+[0.453s] Copying /home/edyta/action_test/build/action_test/action_test.egg-info to /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info
+[0.453s] running install_scripts
+[0.469s] Installing client script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.469s] Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.469s] Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.469s] Installing current_load script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.469s] Installing random_number script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] Installing server script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.470s] writing list of installed files to '/home/edyta/action_test/build/action_test/install.log'

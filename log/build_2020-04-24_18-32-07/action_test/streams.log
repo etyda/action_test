@@ -1,0 +1,52 @@
+[0.235s] Invoking command in '/home/edyta/action_test': PYTHONPATH=/home/edyta/action_test/install/action_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/edyta/action_test/build/action_test build --build-base /home/edyta/action_test/build/action_test/build install --prefix /home/edyta/action_test/install/action_test --record /home/edyta/action_test/build/action_test/install.log --single-version-externally-managed
+[0.441s] running egg_info
+[0.442s] writing /home/edyta/action_test/build/action_test/action_test.egg-info/PKG-INFO
+[0.442s] writing dependency_links to /home/edyta/action_test/build/action_test/action_test.egg-info/dependency_links.txt
+[0.442s] writing entry points to /home/edyta/action_test/build/action_test/action_test.egg-info/entry_points.txt
+[0.442s] writing requirements to /home/edyta/action_test/build/action_test/action_test.egg-info/requires.txt
+[0.442s] writing top-level names to /home/edyta/action_test/build/action_test/action_test.egg-info/top_level.txt
+[0.472s] reading manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.473s] writing manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.473s] running build
+[0.473s] running build_py
+[0.473s] copying action_test/server.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.473s] copying action_test/client_cancel.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.473s] copying action_test/server_queue_goals.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] copying action_test/client.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] copying action_test/client_not_composable.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] copying action_test/server_single_goal.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] copying action_test/server_defer.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] copying action_test/server_not_composable.py -> /home/edyta/action_test/build/action_test/build/lib/action_test
+[0.474s] running install
+[0.474s] running install_lib
+[0.475s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.475s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/client_cancel.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.475s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server_queue_goals.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/client.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/client_not_composable.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server_single_goal.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server_defer.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] copying /home/edyta/action_test/build/action_test/build/lib/action_test/server_not_composable.py -> /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test
+[0.476s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server.py to server.cpython-36.pyc
+[0.476s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/client_cancel.py to client_cancel.cpython-36.pyc
+[0.477s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_queue_goals.py to server_queue_goals.cpython-36.pyc
+[0.477s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/client.py to client.cpython-36.pyc
+[0.478s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/client_not_composable.py to client_not_composable.cpython-36.pyc
+[0.478s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py to server_single_goal.cpython-36.pyc
+[0.479s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_defer.py to server_defer.cpython-36.pyc
+[0.479s] byte-compiling /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_not_composable.py to server_not_composable.cpython-36.pyc
+[0.480s] running install_data
+[0.480s] running install_egg_info
+[0.481s] removing '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info' (and everything under it)
+[0.482s] Copying /home/edyta/action_test/build/action_test/action_test.egg-info to /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info
+[0.482s] running install_scripts
+[0.499s] Installing client script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.499s] Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.499s] Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.499s] Installing server script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.500s] Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.500s] Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.500s] Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.500s] Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.500s] writing list of installed files to '/home/edyta/action_test/build/action_test/install.log'
+[0.520s] Invoked command in '/home/edyta/action_test' returned '0': PYTHONPATH=/home/edyta/action_test/install/action_test/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/edyta/action_test/build/action_test build --build-base /home/edyta/action_test/build/action_test/build install --prefix /home/edyta/action_test/install/action_test --record /home/edyta/action_test/build/action_test/install.log --single-version-externally-managed

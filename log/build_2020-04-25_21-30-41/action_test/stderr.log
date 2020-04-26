@@ -1,0 +1,5 @@
+[0.467s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 49
+[0.467s]     feedback_msg.sample = self.count
+[0.467s]                ^
+[0.467s] SyntaxError: invalid syntax
+[0.467s] 

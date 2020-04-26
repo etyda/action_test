@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000668] (action_test) JobQueued: {'identifier': 'action_test', 'dependencies': OrderedDict()}
+[0.001003] (action_test) JobStarted: {'identifier': 'action_test'}
+[0.100071] (-) TimerEvent: {}
+[0.200470] (-) TimerEvent: {}
+[0.217802] (action_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/edyta/action_test/build/action_test', 'build', '--build-base', '/home/edyta/action_test/build/action_test/build', 'install', '--prefix', '/home/edyta/action_test/install/action_test', '--record', '/home/edyta/action_test/build/action_test/install.log', '--single-version-externally-managed'], 'cwd': '/home/edyta/action_test', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'edyta', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1866', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/edyta/action_test/install', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/edyta', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'COLCON_PREFIX_PATH': '/home/edyta/action_test/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'edyta', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'edyta', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'GTK2_MODULES': 'overlay-scrollbar', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/edyta-X510UNR:@/tmp/.ICE-unix/1764,unix/edyta-X510UNR:/tmp/.ICE-unix/1764', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0e680a0_4bf2_48da_8f04_fcace0f7031b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.166', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/edyta/action_test/build/action_test', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[0.300632] (-) TimerEvent: {}
+[0.400992] (-) TimerEvent: {}
+[0.415508] (action_test) StdoutLine: {'line': b'running egg_info\n'}
+[0.416009] (action_test) StdoutLine: {'line': b'writing /home/edyta/action_test/build/action_test/action_test.egg-info/PKG-INFO\n'}
+[0.416225] (action_test) StdoutLine: {'line': b'writing dependency_links to /home/edyta/action_test/build/action_test/action_test.egg-info/dependency_links.txt\n'}
+[0.416413] (action_test) StdoutLine: {'line': b'writing entry points to /home/edyta/action_test/build/action_test/action_test.egg-info/entry_points.txt\n'}
+[0.416596] (action_test) StdoutLine: {'line': b'writing requirements to /home/edyta/action_test/build/action_test/action_test.egg-info/requires.txt\n'}
+[0.416697] (action_test) StdoutLine: {'line': b'writing top-level names to /home/edyta/action_test/build/action_test/action_test.egg-info/top_level.txt\n'}
+[0.445348] (action_test) StdoutLine: {'line': b"reading manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'\n"}
+[0.446412] (action_test) StdoutLine: {'line': b"writing manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'\n"}
+[0.446601] (action_test) StdoutLine: {'line': b'running build\n'}
+[0.446701] (action_test) StdoutLine: {'line': b'running build_py\n'}
+[0.447213] (action_test) StdoutLine: {'line': b'running install\n'}
+[0.447564] (action_test) StdoutLine: {'line': b'running install_lib\n'}
+[0.448714] (action_test) StdoutLine: {'line': b'running install_data\n'}
+[0.449108] (action_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.450578] (action_test) StdoutLine: {'line': b"removing '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[0.450781] (action_test) StdoutLine: {'line': b'Copying /home/edyta/action_test/build/action_test/action_test.egg-info to /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info\n'}
+[0.451477] (action_test) StdoutLine: {'line': b'running install_scripts\n'}
+[0.467124] (action_test) StdoutLine: {'line': b'Installing client script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.467343] (action_test) StdoutLine: {'line': b'Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.467522] (action_test) StdoutLine: {'line': b'Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.467745] (action_test) StdoutLine: {'line': b'Installing current_load script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.467852] (action_test) StdoutLine: {'line': b'Installing random_number script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.467942] (action_test) StdoutLine: {'line': b'Installing server script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.468010] (action_test) StdoutLine: {'line': b'Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.468074] (action_test) StdoutLine: {'line': b'Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.468138] (action_test) StdoutLine: {'line': b'Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.468201] (action_test) StdoutLine: {'line': b'Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test\n'}
+[0.468309] (action_test) StdoutLine: {'line': b"writing list of installed files to '/home/edyta/action_test/build/action_test/install.log'\n"}
+[0.488117] (action_test) CommandEnded: {'returncode': 0}
+[0.508354] (-) TimerEvent: {}
+[0.513329] (action_test) JobEnded: {'identifier': 'action_test', 'rc': 0}
+[0.514336] (-) EventReactorShutdown: {}

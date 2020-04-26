@@ -1,0 +1,2 @@
+[0.014s] Invoking command in '/home/edyta/action_test/build/action_test': /usr/bin/cmake /home/edyta/action_test -DCMAKE_INSTALL_PREFIX=/home/edyta/action_test/install/action_test
+[0.350s] Invoked command in '/home/edyta/action_test/build/action_test' returned '1': /usr/bin/cmake /home/edyta/action_test -DCMAKE_INSTALL_PREFIX=/home/edyta/action_test/install/action_test

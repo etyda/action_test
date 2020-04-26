@@ -1,0 +1,23 @@
+[0.026s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.224s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.236s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.266s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.295s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[0.299s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[0.342s] CMake Error at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+[0.342s]   Could NOT find FastRTPS (missing: FastRTPS_INCLUDE_DIR FastRTPS_LIBRARIES)
+[0.342s] Call Stack (most recent call first):
+[0.342s]   /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+[0.342s]   /opt/ros/eloquent/share/fastrtps_cmake_module/cmake/Modules/FindFastRTPS.cmake:95 (find_package_handle_standard_args)
+[0.342s]   /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:7 (find_package)
+[0.342s]   /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:38 (include)
+[0.343s]   /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.343s]   /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:38 (include)
+[0.343s]   CMakeLists.txt:23 (find_package)
+[0.343s] 
+[0.343s] 
+[0.343s] -- Configuring incomplete, errors occurred!
+[0.343s] See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeOutput.log".
+[0.343s] See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeError.log".

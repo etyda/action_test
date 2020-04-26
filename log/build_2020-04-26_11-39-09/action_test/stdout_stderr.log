@@ -1,0 +1,28 @@
+[0.412s] running egg_info
+[0.413s] writing /home/edyta/action_test/build/action_test/action_test.egg-info/PKG-INFO
+[0.413s] writing dependency_links to /home/edyta/action_test/build/action_test/action_test.egg-info/dependency_links.txt
+[0.413s] writing entry points to /home/edyta/action_test/build/action_test/action_test.egg-info/entry_points.txt
+[0.414s] writing requirements to /home/edyta/action_test/build/action_test/action_test.egg-info/requires.txt
+[0.414s] writing top-level names to /home/edyta/action_test/build/action_test/action_test.egg-info/top_level.txt
+[0.443s] reading manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.444s] writing manifest file '/home/edyta/action_test/build/action_test/action_test.egg-info/SOURCES.txt'
+[0.444s] running build
+[0.444s] running build_py
+[0.444s] running install
+[0.445s] running install_lib
+[0.446s] running install_data
+[0.446s] running install_egg_info
+[0.448s] removing '/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info' (and everything under it)
+[0.448s] Copying /home/edyta/action_test/build/action_test/action_test.egg-info to /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test-0.0.0-py3.6.egg-info
+[0.449s] running install_scripts
+[0.464s] Installing client script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing current_load script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing random_number script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing server script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.465s] Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.466s] Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.466s] Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.466s] writing list of installed files to '/home/edyta/action_test/build/action_test/install.log'

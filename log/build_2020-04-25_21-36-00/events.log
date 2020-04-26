@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (action_test) JobQueued: {'identifier': 'action_test', 'dependencies': OrderedDict()}
+[0.000392] (action_test) JobStarted: {'identifier': 'action_test'}
+[0.009138] (action_test) JobProgress: {'identifier': 'action_test', 'progress': 'cmake'}
+[0.009835] (action_test) Command: {'cmd': ['/usr/bin/cmake', '/home/edyta/action_test', '-DCMAKE_INSTALL_PREFIX=/home/edyta/action_test/install/action_test'], 'cwd': '/home/edyta/action_test/build/action_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'edyta'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1866'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/edyta/action_test/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/edyta'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'edyta'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'edyta'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/edyta-X510UNR:@/tmp/.ICE-unix/1764,unix/edyta-X510UNR:/tmp/.ICE-unix/1764'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/043c1bf3_7788_4eee_8084_247ff0d4e518'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/edyta/action_test/build/action_test'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202')]), 'shell': False}
+[0.026173] (action_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.050636] (action_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098524] (-) TimerEvent: {}
+[0.198801] (-) TimerEvent: {}
+[0.224187] (action_test) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[0.235930] (action_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[0.266472] (action_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[0.267626] (action_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.294923] (action_test) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[0.298916] (-) TimerEvent: {}
+[0.299184] (action_test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[0.342338] (action_test) StderrLine: {'line': b'CMake Error at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):\n'}
+[0.342510] (action_test) StderrLine: {'line': b'  Could NOT find FastRTPS (missing: FastRTPS_INCLUDE_DIR FastRTPS_LIBRARIES)\n'}
+[0.342588] (action_test) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.342656] (action_test) StderrLine: {'line': b'  /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)\n'}
+[0.342722] (action_test) StderrLine: {'line': b'  /opt/ros/eloquent/share/fastrtps_cmake_module/cmake/Modules/FindFastRTPS.cmake:95 (find_package_handle_standard_args)\n'}
+[0.342787] (action_test) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:7 (find_package)\n'}
+[0.342852] (action_test) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:38 (include)\n'}
+[0.342933] (action_test) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)\n'}
+[0.343005] (action_test) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:38 (include)\n'}
+[0.343068] (action_test) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.343131] (action_test) StderrLine: {'line': b'\n'}
+[0.343194] (action_test) StderrLine: {'line': b'\n'}
+[0.343386] (action_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.343493] (action_test) StdoutLine: {'line': b'See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeOutput.log".\n'}
+[0.343568] (action_test) StdoutLine: {'line': b'See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeError.log".\n'}
+[0.346230] (action_test) CommandEnded: {'returncode': 1}
+[0.346592] (action_test) JobEnded: {'identifier': 'action_test', 'rc': 1}
+[0.356958] (-) EventReactorShutdown: {}

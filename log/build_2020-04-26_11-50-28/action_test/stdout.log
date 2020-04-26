@@ -1,0 +1,25 @@
+[0.439s] running develop
+[0.544s] running egg_info
+[0.545s] writing action_test.egg-info/PKG-INFO
+[0.545s] writing dependency_links to action_test.egg-info/dependency_links.txt
+[0.545s] writing entry points to action_test.egg-info/entry_points.txt
+[0.545s] writing requirements to action_test.egg-info/requires.txt
+[0.545s] writing top-level names to action_test.egg-info/top_level.txt
+[0.572s] reading manifest file 'action_test.egg-info/SOURCES.txt'
+[0.573s] writing manifest file 'action_test.egg-info/SOURCES.txt'
+[0.574s] running build_ext
+[0.575s] Creating /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/site.py
+[0.576s] Creating /home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action-test.egg-link (link to .)
+[0.576s] Installing client script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing client_cancel script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing client_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing current_load script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing random_number script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing server script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing server_defer script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing server_not_composable script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing server_queue_goals script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] Installing server_single_goal script to /home/edyta/action_test/install/action_test/lib/action_test
+[0.577s] 
+[0.577s] Installed /home/edyta/action_test/build/action_test
+[0.578s] running install_data
