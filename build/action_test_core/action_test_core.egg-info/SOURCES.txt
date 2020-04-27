@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/PKG-INFO
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/dependency_links.txt
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/entry_points.txt
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/requires.txt
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/top_level.txt
+/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/zip-safe
+action_test_core/__init__.py
+action_test_core/averaging_server.py
+action_test_core/random_number_gen.py
+resource/action_test_core

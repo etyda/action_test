@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (action_test_msgs) JobQueued: {'identifier': 'action_test_msgs', 'dependencies': OrderedDict()}
+[0.000159] (action_test_core) JobQueued: {'identifier': 'action_test_core', 'dependencies': OrderedDict([('action_test_msgs', '/home/edyta/action_test/install/action_test_msgs')])}
+[0.000186] (action_test_msgs) JobStarted: {'identifier': 'action_test_msgs'}
+[0.009817] (action_test_msgs) JobProgress: {'identifier': 'action_test_msgs', 'progress': 'cmake'}
+[0.010590] (action_test_msgs) JobProgress: {'identifier': 'action_test_msgs', 'progress': 'build'}
+[0.011530] (action_test_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edyta/action_test/build/action_test_msgs', '--', '-j8', '-l8'], 'cwd': '/home/edyta/action_test/build/action_test_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'edyta'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1885'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/edyta'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'edyta'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'edyta'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/edyta-X510UNR:@/tmp/.ICE-unix/1783,unix/edyta-X510UNR:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bf651d1_416b_4fe5_9cc4_402f0bae8fb2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/edyta/action_test/build/action_test_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.065219] (action_test_msgs) StdoutLine: {'line': b'[  3%] Built target action_test_msgs__cpp\n'}
+[0.065790] (action_test_msgs) StdoutLine: {'line': b'[ 13%] Built target action_test_msgs__rosidl_generator_c\n'}
+[0.089053] (action_test_msgs) StdoutLine: {'line': b'[ 24%] Built target action_test_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.089595] (action_test_msgs) StdoutLine: {'line': b'[ 34%] Built target action_test_msgs__rosidl_typesupport_introspection_c\n'}
+[0.095480] (action_test_msgs) StdoutLine: {'line': b'[ 44%] Built target action_test_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.098496] (-) TimerEvent: {}
+[0.123352] (action_test_msgs) StdoutLine: {'line': b'[ 55%] Built target action_test_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.123845] (action_test_msgs) StdoutLine: {'line': b'[ 65%] Built target action_test_msgs__rosidl_typesupport_cpp\n'}
+[0.150315] (action_test_msgs) StdoutLine: {'line': b'[ 75%] Built target action_test_msgs__rosidl_typesupport_c\n'}
+[0.170038] (action_test_msgs) StdoutLine: {'line': b'[ 75%] Built target action_test_msgs\n'}
+[0.189988] (action_test_msgs) StdoutLine: {'line': b'[ 79%] Built target action_test_msgs__py\n'}
+[0.198631] (-) TimerEvent: {}
+[0.217023] (action_test_msgs) StdoutLine: {'line': b'[ 86%] Built target action_test_msgs__python\n'}
+[0.244759] (action_test_msgs) StdoutLine: {'line': b'[100%] Built target action_test_msgs__rosidl_typesupport_c__pyext\n'}
+[0.244978] (action_test_msgs) StdoutLine: {'line': b'[100%] Built target action_test_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.255561] (action_test_msgs) CommandEnded: {'returncode': 0}
+[0.297569] (action_test_msgs) JobProgress: {'identifier': 'action_test_msgs', 'progress': 'install'}
+[0.298806] (-) TimerEvent: {}
+[0.308809] (action_test_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edyta/action_test/build/action_test_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/edyta/action_test/build/action_test_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'edyta'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1885'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/edyta'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'edyta'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'edyta'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/edyta-X510UNR:@/tmp/.ICE-unix/1783,unix/edyta-X510UNR:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bf651d1_416b_4fe5_9cc4_402f0bae8fb2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/edyta/action_test/build/action_test_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.359321] (action_test_msgs) StdoutLine: {'line': b'[  3%] Built target action_test_msgs__cpp\n'}
+[0.359813] (action_test_msgs) StdoutLine: {'line': b'[ 13%] Built target action_test_msgs__rosidl_generator_c\n'}
+[0.382394] (action_test_msgs) StdoutLine: {'line': b'[ 24%] Built target action_test_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.383862] (action_test_msgs) StdoutLine: {'line': b'[ 34%] Built target action_test_msgs__rosidl_typesupport_introspection_c\n'}
+[0.388709] (action_test_msgs) StdoutLine: {'line': b'[ 44%] Built target action_test_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.398921] (-) TimerEvent: {}
+[0.415935] (action_test_msgs) StdoutLine: {'line': b'[ 65%] Built target action_test_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.416106] (action_test_msgs) StdoutLine: {'line': b'[ 65%] Built target action_test_msgs__rosidl_typesupport_cpp\n'}
+[0.442366] (action_test_msgs) StdoutLine: {'line': b'[ 75%] Built target action_test_msgs__rosidl_typesupport_c\n'}
+[0.461976] (action_test_msgs) StdoutLine: {'line': b'[ 75%] Built target action_test_msgs\n'}
+[0.482099] (action_test_msgs) StdoutLine: {'line': b'[ 79%] Built target action_test_msgs__py\n'}
+[0.499053] (-) TimerEvent: {}
+[0.508875] (action_test_msgs) StdoutLine: {'line': b'[ 86%] Built target action_test_msgs__python\n'}
+[0.536503] (action_test_msgs) StdoutLine: {'line': b'[100%] Built target action_test_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.536728] (action_test_msgs) StdoutLine: {'line': b'[100%] Built target action_test_msgs__rosidl_typesupport_c__pyext\n'}
+[0.555353] (action_test_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.564055] (action_test_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.564210] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/ament_index/resource_index/rosidl_interfaces/action_test_msgs\n'}
+[0.564344] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_c.so\n'}
+[0.564612] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/library_path.sh\n'}
+[0.564721] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/library_path.dsv\n'}
+[0.564898] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_cpp.so\n'}
+[0.565136] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.565261] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.565339] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__rosidl_typesupport_fastrtps_c.h\n'}
+[0.565430] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg\n'}
+[0.565500] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.565569] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.565664] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.565810] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.565894] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__functions.h\n'}
+[0.565968] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging.h\n'}
+[0.566034] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__type_support.h\n'}
+[0.566123] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__struct.h\n'}
+[0.566189] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__functions.c\n'}
+[0.566256] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg\n'}
+[0.566362] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.566464] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_generator_c.so\n'}
+[0.566531] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.566597] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.566676] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/dds_fastrtps\n'}
+[0.566743] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.566810] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg\n'}
+[0.566876] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.566978] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.567082] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.567206] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.567274] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging.hpp\n'}
+[0.567340] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__struct.hpp\n'}
+[0.567406] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__traits.hpp\n'}
+[0.567488] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.567554] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.567619] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__type_support.c\n'}
+[0.567714] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__rosidl_typesupport_introspection_c.h\n'}
+[0.567803] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg\n'}
+[0.567869] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.567935] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.568022] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs\n'}
+[0.568090] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action\n'}
+[0.568156] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__type_support.cpp\n'}
+[0.568222] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/include/action_test_msgs/action/averaging__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.568304] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.568399] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/pythonpath.sh\n'}
+[0.568485] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/pythonpath.dsv\n'}
+[0.568560] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/__init__.py\n'}
+[0.599174] (-) TimerEvent: {}
+[0.600676] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action\n'}
+[0.600816] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action/__init__.py\n'}
+[0.600892] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action/_averaging_s.c\n'}
+[0.600974] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action/_averaging.py\n'}
+[0.601177] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action_test_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.601780] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages/action_test_msgs/action_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.602287] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/lib/libaction_test_msgs__python.so\n'}
+[0.602511] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/action/Averaging.idl\n'}
+[0.602619] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/action/Averaging.action\n'}
+[0.602796] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/ament_index/resource_index/package_run_dependencies/action_test_msgs\n'}
+[0.602876] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/ament_index/resource_index/parent_prefix_path/action_test_msgs\n'}
+[0.603159] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/ament_prefix_path.sh\n'}
+[0.603260] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/ament_prefix_path.dsv\n'}
+[0.603361] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/path.sh\n'}
+[0.603460] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/environment/path.dsv\n'}
+[0.603572] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/local_setup.bash\n'}
+[0.603637] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/local_setup.sh\n'}
+[0.603701] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/local_setup.zsh\n'}
+[0.603763] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/local_setup.dsv\n'}
+[0.603825] (action_test_msgs) StdoutLine: {'line': b'-- Installing: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/package.dsv\n'}
+[0.603888] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/ament_index/resource_index/packages/action_test_msgs\n'}
+[0.603951] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.604013] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.604075] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.604137] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.604198] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/action_test_msgsConfig.cmake\n'}
+[0.604260] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/cmake/action_test_msgsConfig-version.cmake\n'}
+[0.604322] (action_test_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edyta/action_test/install/action_test_msgs/share/action_test_msgs/package.xml\n'}
+[0.606227] (action_test_msgs) CommandEnded: {'returncode': 0}
+[0.635082] (action_test_msgs) JobEnded: {'identifier': 'action_test_msgs', 'rc': 0}
+[0.635817] (action_test_core) JobStarted: {'identifier': 'action_test_core'}
+[0.699384] (-) TimerEvent: {}
+[0.800322] (-) TimerEvent: {}
+[0.858494] (action_test_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/edyta/action_test/build/action_test_core', 'build', '--build-base', '/home/edyta/action_test/build/action_test_core/build', 'install', '--prefix', '/home/edyta/action_test/install/action_test_core', '--record', '/home/edyta/action_test/build/action_test_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/edyta/action_test/action_test_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'edyta', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1885', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/home/edyta/action_test/install/action_test_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib', 'SHLVL': '1', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/edyta', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'edyta', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'edyta', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'GTK2_MODULES': 'overlay-scrollbar', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/edyta-X510UNR:@/tmp/.ICE-unix/1783,unix/edyta-X510UNR:/tmp/.ICE-unix/1783', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0bf651d1_416b_4fe5_9cc4_402f0bae8fb2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.80', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/edyta/action_test/install/action_test_msgs:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/edyta/action_test/build/action_test_core', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/edyta/action_test/install/action_test_msgs'}, 'shell': False}
+[0.900473] (-) TimerEvent: {}
+[1.000791] (-) TimerEvent: {}
+[1.058784] (action_test_core) StdoutLine: {'line': b'running egg_info\n'}
+[1.059306] (action_test_core) StdoutLine: {'line': b'writing /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/PKG-INFO\n'}
+[1.059498] (action_test_core) StdoutLine: {'line': b'writing dependency_links to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/dependency_links.txt\n'}
+[1.059747] (action_test_core) StdoutLine: {'line': b'writing entry points to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/entry_points.txt\n'}
+[1.059862] (action_test_core) StdoutLine: {'line': b'writing requirements to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/requires.txt\n'}
+[1.060025] (action_test_core) StdoutLine: {'line': b'writing top-level names to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/top_level.txt\n'}
+[1.088426] (action_test_core) StdoutLine: {'line': b"reading manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'\n"}
+[1.089418] (action_test_core) StdoutLine: {'line': b"writing manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'\n"}
+[1.089649] (action_test_core) StdoutLine: {'line': b'running build\n'}
+[1.089843] (action_test_core) StdoutLine: {'line': b'running build_py\n'}
+[1.089945] (action_test_core) StdoutLine: {'line': b'running install\n'}
+[1.090155] (action_test_core) StdoutLine: {'line': b'running install_lib\n'}
+[1.091038] (action_test_core) StdoutLine: {'line': b'running install_data\n'}
+[1.091353] (action_test_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.092839] (action_test_core) StdoutLine: {'line': b"removing '/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.093049] (action_test_core) StdoutLine: {'line': b'Copying /home/edyta/action_test/build/action_test_core/action_test_core.egg-info to /home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info\n'}
+[1.093730] (action_test_core) StdoutLine: {'line': b'running install_scripts\n'}
+[1.100904] (-) TimerEvent: {}
+[1.109507] (action_test_core) StdoutLine: {'line': b'Installing averaging_server script to /home/edyta/action_test/install/action_test_core/lib/action_test_core\n'}
+[1.109735] (action_test_core) StdoutLine: {'line': b'Installing random_number script to /home/edyta/action_test/install/action_test_core/lib/action_test_core\n'}
+[1.109943] (action_test_core) StdoutLine: {'line': b"writing list of installed files to '/home/edyta/action_test/build/action_test_core/install.log'\n"}
+[1.129724] (action_test_core) CommandEnded: {'returncode': 0}
+[1.137406] (action_test_core) JobEnded: {'identifier': 'action_test_core', 'rc': 0}
+[1.138580] (-) EventReactorShutdown: {}
