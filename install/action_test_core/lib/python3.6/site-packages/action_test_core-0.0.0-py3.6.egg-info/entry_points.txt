@@ -1,4 +1,0 @@
-[console_scripts]
-averaging_server = action_test_core.averaging_server:main
-random_number = action_test_core.random_number_gen:main
-

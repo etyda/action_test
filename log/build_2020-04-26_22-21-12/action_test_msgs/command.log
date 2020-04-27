@@ -1,4 +1,0 @@
-[0.015s] Invoking command in '/home/edyta/action_test/build/action_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/edyta/action_test/build/action_test_msgs -- -j8 -l8
-[0.256s] Invoked command in '/home/edyta/action_test/build/action_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/edyta/action_test/build/action_test_msgs -- -j8 -l8
-[0.309s] Invoking command in '/home/edyta/action_test/build/action_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/edyta/action_test/build/action_test_msgs --target install -- -j8 -l8
-[0.611s] Invoked command in '/home/edyta/action_test/build/action_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/edyta/action_test/build/action_test_msgs --target install -- -j8 -l8
