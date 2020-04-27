@@ -1,5 +1,0 @@
-[0.024s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
-[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[0.140s] -- Configuring incomplete, errors occurred!
-[0.140s] See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeOutput.log".
-[0.140s] See also "/home/edyta/action_test/build/action_test/CMakeFiles/CMakeError.log".

@@ -1,6 +1,0 @@
-source;share/action_test/hook/pythonpath.ps1
-source;share/action_test/hook/pythonpath.dsv
-source;share/action_test/hook/pythonpath.sh
-source;../../build/action_test/share/action_test/hook/pythonpath_develop.ps1
-source;../../build/action_test/share/action_test/hook/pythonpath_develop.dsv
-source;../../build/action_test/share/action_test/hook/pythonpath_develop.sh

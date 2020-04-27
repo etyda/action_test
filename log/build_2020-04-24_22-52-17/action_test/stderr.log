@@ -1,5 +1,0 @@
-[0.469s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 102
-[0.470s]     self.get_logger().info()
-[0.470s]        ^
-[0.470s] SyntaxError: invalid syntax
-[0.470s] 

@@ -1,5 +1,0 @@
-[0.456s]   File "/home/edyta/action_test/install/action_test/lib/python3.6/site-packages/action_test/server_single_goal.py", line 50
-[0.456s]     feedback_msg.data = msg.data
-[0.456s]                ^
-[0.456s] SyntaxError: invalid syntax
-[0.456s] 
