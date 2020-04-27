@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_test_msgs/action/Averaging.action
+// generated code does not contain a copyright notice
+
+
+module action_test_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Averaging_Goal {
+      int32 samples;
+    };
+    struct Averaging_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      float mean;
+
+      float std_dev;
+    };
+    struct Averaging_Feedback {
+      @verbatim (language="comment", text=
+        "feedback")
+      int32 sample;
+
+      float data;
+
+      float mean;
+
+      float std_dev;
+    };
+  };
+};

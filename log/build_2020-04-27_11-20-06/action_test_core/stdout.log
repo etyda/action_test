@@ -1,0 +1,20 @@
+[0.422s] running egg_info
+[0.423s] writing /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/PKG-INFO
+[0.423s] writing dependency_links to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/dependency_links.txt
+[0.423s] writing entry points to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/entry_points.txt
+[0.423s] writing requirements to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/requires.txt
+[0.424s] writing top-level names to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/top_level.txt
+[0.452s] reading manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'
+[0.453s] writing manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'
+[0.453s] running build
+[0.453s] running build_py
+[0.453s] running install
+[0.453s] running install_lib
+[0.454s] running install_data
+[0.455s] running install_egg_info
+[0.456s] removing '/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info' (and everything under it)
+[0.456s] Copying /home/edyta/action_test/build/action_test_core/action_test_core.egg-info to /home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info
+[0.457s] running install_scripts
+[0.473s] Installing averaging_server script to /home/edyta/action_test/install/action_test_core/lib/action_test_core
+[0.473s] Installing random_number script to /home/edyta/action_test/install/action_test_core/lib/action_test_core
+[0.473s] writing list of installed files to '/home/edyta/action_test/build/action_test_core/install.log'

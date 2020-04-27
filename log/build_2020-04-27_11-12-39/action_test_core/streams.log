@@ -1,0 +1,24 @@
+[0.234s] Invoking command in '/home/edyta/action_test/action_test_core': PYTHONPATH=/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/edyta/action_test/build/action_test_core build --build-base /home/edyta/action_test/build/action_test_core/build install --prefix /home/edyta/action_test/install/action_test_core --record /home/edyta/action_test/build/action_test_core/install.log --single-version-externally-managed
+[0.432s] running egg_info
+[0.433s] writing /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/PKG-INFO
+[0.433s] writing dependency_links to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/dependency_links.txt
+[0.433s] writing entry points to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/entry_points.txt
+[0.433s] writing requirements to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/requires.txt
+[0.434s] writing top-level names to /home/edyta/action_test/build/action_test_core/action_test_core.egg-info/top_level.txt
+[0.463s] reading manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'
+[0.464s] writing manifest file '/home/edyta/action_test/build/action_test_core/action_test_core.egg-info/SOURCES.txt'
+[0.464s] running build
+[0.464s] running build_py
+[0.464s] running install
+[0.464s] running install_lib
+[0.465s] byte-compiling /home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core/averaging_server.py to averaging_server.cpython-36.pyc
+[0.466s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (averaging_server.py, line 39)
+[0.466s] running install_data
+[0.466s] running install_egg_info
+[0.467s] removing '/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info' (and everything under it)
+[0.468s] Copying /home/edyta/action_test/build/action_test_core/action_test_core.egg-info to /home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages/action_test_core-0.0.0-py3.6.egg-info
+[0.468s] running install_scripts
+[0.485s] Installing averaging_server script to /home/edyta/action_test/install/action_test_core/lib/action_test_core
+[0.485s] Installing random_number script to /home/edyta/action_test/install/action_test_core/lib/action_test_core
+[0.486s] writing list of installed files to '/home/edyta/action_test/build/action_test_core/install.log'
+[0.507s] Invoked command in '/home/edyta/action_test/action_test_core' returned '0': PYTHONPATH=/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test_msgs/lib/python3.6/site-packages:/home/edyta/action_test/install/action_test_core/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/edyta/action_test/build/action_test_core build --build-base /home/edyta/action_test/build/action_test_core/build install --prefix /home/edyta/action_test/install/action_test_core --record /home/edyta/action_test/build/action_test_core/install.log --single-version-externally-managed
